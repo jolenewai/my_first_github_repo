@@ -1,45 +1,55 @@
+
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500&display=swap');
+
 
 body {
     font-family: 'Roboto', 'Arial';
+    font-weight:100;
     color: #4d4d4d;
     /*letter-spacing: 2px;*/
 }
 
 .header {
-    height:120px;
+    height:125px;
 }
 
 .home {
     height: 675px; 
+    background: #FFEB00;
+}
+
+/*.main-image {
     background: #FFEB00 url(images/home_header.png) right bottom no-repeat;
     background-size: 50%;
-}
+}*/
 
 #headline_row {
     height:100%;
 }
 
-h1.headline{
-    font-size: 6em;
-    font-weight: 100;
-    text-align: center;
+.headline{
+    font-size: 4em;
     line-height: 1.2em;
 }
 
-h1 {
+.nav {
+    font-weight:400;
 }
-
 a:link {
     color: #4d4d4d;
     
 }
 
+a:hover{
+
+    color:#4EB9B1;
+}
+
 #social-links {
     text-align: center;
-    /*width: 300px;*/
+    /*width: 300px;
     border:1px solid green;
-    display:block;
+    display:block;*/
 }
 #social-links li a {
     width:30px;
@@ -48,14 +58,12 @@ a:link {
     background-size:28px;
     background-repeat:no-repeat;
     background-position: center;
-    border:1px solid blue;
+    /*border:1px solid blue;*/
     display:block;
-
 }
 
 #social-instagram a {
     background-image: url(images/Icon-awesome-instagram.png);
-    border:1px solid red;
 
 }
 #social-instagram a:hover {
@@ -63,7 +71,6 @@ a:link {
 }
 #social-behance a {
     background-image: url(images/Icon-awesome-behance-square.png);
-    border:1px solid red;
 }
 #social-behance a:hover {
     background-image: url(images/Icon-awesome-behance-square-hover.png);
@@ -71,8 +78,50 @@ a:link {
 
 #social-linkedin a {
     background-image: url(images/Icon-awesome-linkedin.png);
-    border:1px solid red;
 }
 #social-linkedin a:hover {
     background-image: url(images/Icon-awesome-linkedin-hover.png);
+}
+
+.home-image {
+    background: url(images/home_header.png) no-repeat center bottom;
+    background-size: 100%;
+    height:100%;
+}
+
+.about {
+
+    background: #D5688D;
+}
+
+h1{
+    font-weight: 100;
+    text-transform: uppercase;
+
+}
+
+.white {
+    color:#fff;
+}
+
+.card {
+    background: none;
+    border:none;
+}
+
+.card img {
+width:50%;
+    text-align: center;
+    background: #fff;
+    border-radius: 50%;
+}
+.card-title {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+@media screen and (max-width: 360px) {
+    .headline{
+        font-size: 3em;
+    }
 }
