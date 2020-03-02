@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap');
+
+body {
+    font-family: 'Roboto', 'Arial';
+    color: #4d4d4d;
+    /*letter-spacing: 2px;*/
+}
+
+
+.header {
+    height:120px;
+}
+
+.home {
+
+    background-color: #FFEB00;
+    height: 895px; 
+
+}
+h1 {
+    font-family: 'Roboto Condensed','';
+}
