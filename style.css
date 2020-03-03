@@ -110,10 +110,8 @@ a:visited {
     min-height:100%;
 }
 
-
-
 h1, h3{
-    font-weight: 100;
+    font-weight: 300;
     text-transform: uppercase;
 }
 
@@ -175,15 +173,22 @@ h2{
 .btn, .btn-primary {
     background-color:#FFEB00;
     border:none;
+    color:#4d4d4d;
+
 }
 
 a.btn:link, a.btn:visited {
-    color:#4EB9B1;
+    color:#4d4d4d;
 }
 
-a.btn:hover{
+a.btn:hover, .btn:hover{
     background-color: #4EB9B1;
     color:#FFF;
+}
+
+.footer {
+    font-size:0.8em;
+    text-align:center;
 }
 
 /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
@@ -242,7 +247,7 @@ a.btn:hover{
         width:100%;
     } 
 
-    .portfolio{
+    .about, .portfolio, .contact{
         padding-top:1em;
     }
 
