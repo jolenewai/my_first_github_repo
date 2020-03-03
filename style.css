@@ -3,6 +3,8 @@
 
 html {
     height: 100%;
+    overflow-x: hidden;
+
 }
 
 body {
@@ -11,11 +13,13 @@ body {
     color: #4d4d4d;
     letter-spacing: 1px;
     height:100%;
+    overflow-x: hidden;
     
 }
 
 .header {
     height:125px;
+    background: #FFF;
 }
 
 .home {
@@ -50,6 +54,10 @@ a:hover{
 
 a:visited {
     color: #4d4d4d;
+}
+
+#about-container, #porfolio-container, #porfolio-container-2, #porfolio-container-3, #contactform{
+    height:100%;
 }
 
 #social-links {
@@ -102,9 +110,7 @@ a:visited {
     min-height:100%;
 }
 
-#about-container, #porfolio-container, #porfolio-container-2, #porfolio-container-3{
-    height:100%;
-}
+
 
 h1, h3{
     font-weight: 100;
@@ -148,7 +154,7 @@ h2{
 }
 
 .portfolio .card img{
-    width:205px;
+    /*width:205px;*/
     background:#000;
     overflow:hidden;
 
@@ -156,6 +162,13 @@ h2{
 
 .card-number {    
     font-style:oblique;
+}
+
+
+.contact{
+    height:100%;
+    min-height:100%;
+    background-color:#F2880C;
 }
 
 
@@ -198,20 +211,39 @@ a.btn:hover{
     }
     
     .header {
-        height:225px;
+        height:200px;
     }
 
     .headline{
         font-size: 10vw;
+        margin-top:1em;
     } 
 
     .home-image {
         background: url(images/home_header.png) no-repeat center bottom;
         background-size: 100%;
-        height:100%;
+        height:500px;
     }
-    
-    
+    .about .card img {
+        width:60%;
+        text-align: center;
+        background: #fff;
+        border-radius: 50%;
+    }
 
+    .nav li {
+        display:block;
+        width:100%;
+        line-height:0.8em;
+    }
+
+    .nav li a{
+        display:block;
+        width:100%;
+    } 
+
+    .portfolio{
+        padding-top:1em;
+    }
 
 }
