@@ -11,16 +11,51 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
 
+    <!--AOS CSS & JS-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!--JQUERY-->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 
     <title>Graphic | Web | Photography</title>
   </head>
   <body>
       
       <div class="container-fluid m-0 p-0">
-        <div class="row m-0 header align-items-center">  
-          <div class="col">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+          <a class="navbar-brand" href="#"><img src="images/jw_logo.png" width="82" /></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#about-section">ABOUT_</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#porfolio-section-graphic">GRAPHIC DESIGN_</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#porfolio-section-web">WEB DESIGN_</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#porfolio-section-photography">PHOTOGRAPHY_</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contact">CONTACT_</a>
+              </li>
+              
+            </ul>
+          </div>
+        </nav>
+        
+        <div class="topnav row m-0 header align-items-center bg-dark"> 
+          <div class="col offset-md-1">
+            <div class="logo"></div>
+          </div> 
+          <div class="col-8 offset-md-1">
+            
           <!--header with nav bar-->
             <ul class="nav pt-4 justify-content-end">
               <li class="nav-item">
@@ -41,13 +76,7 @@
         <section class="home" data-aos="fade-up" >
           <!--Home page section-->
           <div id="headline_row" class="row mx-0 align-items-center justify-content-end">
-            <div class="col-sm-6" data-aos="fade-up"
-            data-aos-delay="20"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-            data-aos-mirror="true"
-            data-aos-once="false"
-            data-aos-anchor-placement="top-center">
+            <div class="col-sm-6" data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false" data-aos-anchor-placement="top-center">
               <p class="headline text-center text-wrap">TO CREATE GREAT DESIGNS WITH FUNCTIONALITY</p>
               <div id="social-links" >
                 <ul class="list-inline 	justify-content-center" >
@@ -63,13 +92,7 @@
                 </ul>
               </div>
             </div>
-            <div class="home-image col-sm-5" data-aos="fade-left" data-aos-offset="200"
-            data-aos-delay="30"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-            data-aos-mirror="true"
-            data-aos-once="false"
-            data-aos-anchor-placement="top-center"></div>
+            <div class="home-image col-sm-5" data-aos="fade-left" data-aos-offset="200" data-aos-delay="30" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false" data-aos-anchor-placement="top-center"></div>
           </div>
         </div>
       </section>
@@ -86,13 +109,7 @@
           <div class="row m-0 justify-content-center white mt-4">
             <div class="col-10">
                 <div class="card-deck">
-                 <div class="card col text-center text-wrap" data-aos="fade-up" data-aos-offset="50"
-                 data-aos-delay="10"
-                 data-aos-duration="1200"
-                 data-aos-easing="ease-in-out"
-                 data-aos-mirror="true"
-                 data-aos-once="false"
-                 data-aos-anchor-placement="top-center">
+                 <div class="card col text-center text-wrap" data-aos="fade-left" data-aos-offset="50"data-aos-delay="10" data-aos-duration="1200" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false" data-aos-anchor-placement="top-center">
                   <img src="images/Icon-Graphics.png" class="card-img-top mx-auto d-block"  alt="Graphics Design" >
                   <div class="card-body">
                     <h5 class="card-title">Graphic Design</h5>
@@ -103,13 +120,7 @@
                     <a href="#" class="btn btn-primary">View My Best</a>
                   </div>
                   </div>
-                  <div class="card col text-center" data-aos="fade-up" data-aos-offset="100"
-                  data-aos-delay="20"
-                  data-aos-duration="1200"
-                  data-aos-easing="ease-in-out"
-                  data-aos-mirror="true"
-                  data-aos-once="false"
-                  data-aos-anchor-placement="top-center">
+                  <div class="card col text-center" data-aos="fade-up" data-aos-offset="100" data-aos-delay="20" data-aos-duration="1200" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false" data-aos-anchor-placement="top-center">
                     <img src="images/Icon-Web.png" class="card-img-top mx-auto d-block" alt="Graphics Design" >
                     <div class="card-body">
                       <h5 class="card-title">Web Design</h5>
@@ -121,13 +132,7 @@
                       <a href="#" class="btn btn-primary">View My Best</a>
                     </div>
                     </div>
-                    <div class="card text-center" data-aos="fade-up" data-aos-offset="200"
-                    data-aos-delay="30"
-                    data-aos-duration="1000"
-                    data-aos-easing="ease-in-out"
-                    data-aos-mirror="true"
-                    data-aos-once="false"
-                    data-aos-anchor-placement="top-center">
+                    <div class="card text-center" data-aos="fade-right" data-aos-offset="200" data-aos-delay="30" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false" data-aos-anchor-placement="top-center">
                       <img src="images/Icon-Photography.png" class="card-img-top mx-auto d-block" alt="Graphics Design" >
                       <div class="card-body">
                         <h5 class="card-title">PHOTOGRAPHY</h5>
@@ -149,14 +154,7 @@
           </div>
         </section>
 
-        <section class="portfolio"data-aos="fade-up"
-        data-aos-offset="200"
-        data-aos-delay="20"
-        data-aos-duration="1000"
-        data-aos-easing="ease-in-out"
-        data-aos-mirror="true"
-        data-aos-once="false"
-        data-aos-anchor-placement="top-center" >
+        <section class="portfolio"  >
           
           <a name="porfolio-section-graphic"></a>
           <div id="porfolio-container" class="row m-0 align-items-center">
@@ -167,7 +165,7 @@
               <p class="text-center white mt-3">Take a look on my best works in Graphics Design.</p>
             </div>
           </div> 
-            <div class="row m-0 justify-content-center white mt-4 ">                
+            <div class="row m-0 justify-content-center white mt-4" data-aos="fade-left" data-aos-offset="100" data-aos-duration="800" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false" data-aos-anchor-placement="top-center">                
               <div class="col-10">
                 <div class="card-deck">
                   <div class="card">
@@ -207,7 +205,7 @@
         </section>
         <section class="portfolio-2">
           <a name="porfolio-section-web"></a>
-          <div id="porfolio-container-2" class="row m-0 align-items-center">
+          <div id="porfolio-container-2" class="row m-0 align-items-center" data-aos="fade-up" data-aos-offset="100" data-aos-duration="800" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false" data-aos-anchor-placement="top-center">
             <div class="col-12">
           <div class="row m-0">
             <div class="col text-center">
@@ -254,96 +252,74 @@
         </div>
       </div>
         </section>
-        <section class="portfolio">
+        <section class="portfolio-3">
           <a name="porfolio-section-photography"></a>
           <div id="porfolio-container-3" class="row align-items-center">
             <div class="col-12">
-          <div class="row m-0">
-            <div class="col text-center">
-              <h1 class="yellow mt-1">Photography_</h1>
-              <p class="text-center white mt-3">Take a look on my best works in Photography.</p>
-            </div>
-          </div> 
-            <div class="row m-0 justify-content-center white mt-4">
-              <div class="col-10">
-                <div class="row row-cols-1 row-cols-md-4">
-                  <div class="col mb-1">
-                    <div class="card">
-                      <h5 class="card-number">01/</h5>
-                      <img src="images/Food.jpg" class="card-img-top" alt="Food Shot" >
-                      <div class="card-body">
-                        <p class="card-text">Food Shot</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col mb-1">
-                    <div class="card">
-                      <h5 class="card-number">02/</h5>
-                      <img src="images/Food2.JPG" class="card-img-top" alt="Food Shot with ambience">
-                      <div class="card-body">
-                        <p class="card-text">Food Shot with ambience</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col mb-1">
-                    <div class="card">
-                      <h5 class="card-number">03/</h5>
-                      <img src="images/Food3.jpg" class="card-img-top" alt="Food Shot with ambience">
-                      <div class="card-body">
-                        <p class="card-text">Food Shot with ambience</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col mb-1">
-                    <div class="card">
-                      <h5 class="card-number">04/</h5>
-                      <img src="images/Food4.jpg" class="card-img-top" alt="Food Shot with clean background">
-                      <div class="card-body">
-                        <p class="card-text">Food Shot with clean background</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col mb-1">
-                    <div class="card">
-                      <h5 class="card-number">05/</h5>
-                      <img src="images/Landscape.jpg" class="card-img-top" alt="Landscape in Norway">
-                      <div class="card-body">
-                        <p class="card-text">Landscape in Norway</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col mb-1">
-                    <div class="card">
-                      <h5 class="card-number">06/</h5>
-                      <img src="images/Landscape2.jpg" class="card-img-top" alt="Sunset in Kukup Island, Malaysia">
-                      <div class="card-body">
-                        <p class="card-text">Sunset in Kukup Island, Malaysia</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col mb-1">
-                    <div class="card">
-                      <h5 class="card-number">07/</h5>
-                      <img src="images/Fireworks.jpg" class="card-img-top" alt="Fireworks, Marina Bay, Singapore">
-                      <div class="card-body">
-                        <p class="card-text">Fireworks, Marina Bay, Singapore</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col mb-1">
-                    <div class="card">
-                      <h5 class="card-number">08/</h5>
-                      <img src="images/Nature.JPG" class="card-img-top" alt="Nature, Close Up">
-                      <div class="card-body">
-                        <p class="card-text">Nature, Close Up</p>
-                      </div>
-                    </div>
-                  </div>
+              <div class="row m-0">
+                <div class="col text-center">
+                  <h1 class="yellow mt-1">Photography_</h1>
+                  <p class="text-center white mt-3">Take a look on my best works in Photography.</p>
                 </div>
               </div>
+              <div class="row m-0 justify-content-center white mt-4">
+                <div class="col-10">
+                  <div class="row row-cols-1 row-cols-md-4">
+                    <div class="col mb-1">
+                      
+                      <div class="card">
+                        <h5 class="card-number">01/</h5>
+                        <img src="images/Food.jpg" class="card-img-top" alt="Food Shot" >
+
+                      </div>
+                    </div>
+                    <div class="col mb-1">
+                      <div class="card">
+                        <h5 class="card-number">02/</h5>
+                        <img src="images/Food2.JPG" class="card-img-top" alt="Food Shot with ambience">
+
+                      </div>
+                    </div>
+                    <div class="col mb-1">
+                      <div class="card">
+                        <h5 class="card-number">03/</h5>
+                        <img src="images/Food3.jpg" class="card-img-top" alt="Food Shot with ambience">
+                      </div>
+                    </div>
+                    <div class="col mb-1">
+                      <div class="card">
+                        <h5 class="card-number">04/</h5>
+                        <img src="images/Food4.jpg" class="card-img-top" alt="Food Shot with clean background">
+                      </div>
+                    </div>
+                    <div class="col mb-1">
+                      <div class="card">
+                        <h5 class="card-number">05/</h5>
+                        <img src="images/Landscape.jpg" class="card-img-top" alt="Landscape in Norway">
+                      </div>
+                    </div>
+                    <div class="col mb-1">
+                      <div class="card">
+                        <h5 class="card-number">06/</h5>
+                        <img src="images/Landscape2.jpg" class="card-img-top" alt="Sunset in Kukup Island, Malaysia">
+                      </div>
+                    </div>
+                    <div class="col mb-1">
+                      <div class="card">
+                        <h5 class="card-number">07/</h5>
+                        <img src="images/Fireworks.jpg" class="card-img-top" alt="Fireworks, Marina Bay, Singapore">
+                      </div>
+                    </div>
+                    <div class="col mb-1">
+                      <div class="card">
+                        <h5 class="card-number">08/</h5>
+                        <img src="images/Nature.JPG" class="card-img-top" alt="Nature, Close Up">
+                      </div>
+                    </div>
+                  </div>
+            </div>
           </div>
-        </div>
-      </div>
+
         </section>
 
         <section class="contact">
@@ -379,7 +355,13 @@
         </section>
       </div>
     <!-- Optional JavaScript -->
-    
+    <!-- JS for nav scroll -->
+    <script>
+      $(window).scroll(function(){
+      $('navbar').toggleClass('scrolled', $(this).scrollTop()>500);
+      });
+
+  </script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
