@@ -41,6 +41,11 @@ body {
     /*opacity: 50%;*/
   }
 
+.navbar-collapse {
+    background: transparent !important;
+
+}
+
 /*.main-image {
     background: #FFEB00 url(images/home_header.png) right bottom no-repeat;
     background-size: 50%;
