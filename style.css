@@ -2,8 +2,9 @@
  @import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,400,500&display=swap');
 
 html {
-    height: 100%;
+    /*height: 100%;*/
     /*overflow-x: hidden;*/
+    scroll-behavior: smooth;
 
 }
 
@@ -14,69 +15,67 @@ body {
     letter-spacing: 1px;
     height:100%;
     overflow-x: hidden;
-    
+    margin-top:65px;
+    background: #f4f4f4;
 }
 
 .header {
-    height:125px;
-    background: #FFF;
+    height:65px;
+    background: #f4f4f4 !important;
 }
 
 .logo {
-    width:85px;
-    height:85px;
-    background: url(images/jw_logo_80px.png) no-repeat 80%;
+    width:55px;
+    height:55px;
+}
+
+.logo a {
+    display:block;
+    border:none;
+    text-decoration: none;
+    width:55px;
+    height:55px;
+    background: url(images/jw_logo_80px.png) no-repeat center;
+    background-size: 50px 50px;
 }
 
 .home {
-    height: 675px; 
+    height: 580px; 
     background: #FFEB00;
 }
 
-.bg-light{
-    background: transparent !important;
-  }
-.bg-light.scrolled{
-    background: #FFF !important;
-    /*opacity: 50%;*/
-  }
-
 .navbar-collapse {
     background: transparent !important;
-
 }
-
-/*.main-image {
-    background: #FFEB00 url(images/home_header.png) right bottom no-repeat;
-    background-size: 50%;
-}*/
 
 #headline_row {
     height:100%;
 }
 
 .headline{
-    font-size: 4em;
+    font-size: 3.5em;
     line-height: 1.2em;
 }
 
 .nav {
     font-weight:400;
 }
-a:link {
+.nav a:link {
     color: #4d4d4d; 
+    font-size:0.98em;
 }
 
-a:hover{
+.nav a:hover{
     color:#4EB9B1;
 }
 
-a:visited {
+.nav a:visited {
     color: #4d4d4d;
 }
 
 #about-container, #porfolio-container, #porfolio-container-2, #porfolio-container-3, #contactform{
-    height:100%;
+    padding-top:70px;
+    padding-bottom:70px;
 }
 
 #social-links {
@@ -118,8 +117,8 @@ a:visited {
 }
 
 .home-image {
-    background: url(images/home_header.png) no-repeat center bottom;
-    background-size: 100%;
+    background: url(images/homepage_image.png) no-repeat center bottom;
+    background-size: 160%;
     height:100%;
 }
 

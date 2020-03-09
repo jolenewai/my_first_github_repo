@@ -23,14 +23,15 @@
   <body>
       
       <div class="container-fluid m-0 p-0">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-          <a class="navbar-brand" href="#"><img src="images/jw_logo.png" width="82" /></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse " id="navbarNavDropdown">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
+        <div class="topnav row m-0 header align-items-center fixed-top "> 
+          <div class="col offset-md-1">
+            <div class="logo"><a href="#top"></a></div>
+          </div> 
+          <div class="col-8 offset-md-1">
+            
+          <!--header with nav bar-->
+            <ul class="nav pt-4 justify-content-end">
+              <li class="nav-item">
                 <a class="nav-link" href="#about-section">ABOUT_</a>
               </li>
               <li class="nav-item">
@@ -45,37 +46,14 @@
               <li class="nav-item">
                 <a class="nav-link" href="#Contact">CONTACT_</a>
               </li>
-              
             </ul>
           </div>
-        </nav>
-        
-        <div class="topnav row m-0 header align-items-center bg-dark"> 
-          <div class="col offset-md-1">
-            <div class="logo"></div>
-          </div> 
-          <div class="col-8 offset-md-1">
-            
-          <!--header with nav bar-->
-            <ul class="nav pt-4 justify-content-end">
-              <li class="nav-item">
-                <a class="nav-link" href="#about-section">ABOUT_</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#porfolio-section-graphic">GRAPHIC DESIGN_</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#porfolio-section-web">WEB DESIGN_</a></li>
-              <li class="nav-item">
-                <a class="nav-link" href="#porfolio-section-photography">PHOTOGRAPHY_</a></li>
-              <li class="nav-item">
-                <a class="nav-link" href="#Contact">CONTACT_</a></li>
-            </ul>
-            </div>
         </div>
         <section class="home" data-aos="fade-up" >
           <!--Home page section-->
           <div id="headline_row" class="row mx-0 align-items-center justify-content-end">
+            <div class="home-image col-sm-5" data-aos="fade-left" data-aos-offset="200" data-aos-delay="30" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false" data-aos-anchor-placement="top-center"></div>
+
             <div class="col-sm-6" data-aos="fade-up" data-aos-delay="20" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false" data-aos-anchor-placement="top-center">
               <p class="headline text-center text-wrap">TO CREATE GREAT DESIGNS WITH FUNCTIONALITY</p>
               <div id="social-links" >
@@ -92,9 +70,9 @@
                 </ul>
               </div>
             </div>
-            <div class="home-image col-sm-5" data-aos="fade-left" data-aos-offset="200" data-aos-delay="30" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false" data-aos-anchor-placement="top-center"></div>
           </div>
         </div>
+        <div class="clearfix"></div>
       </section>
       <section class="about" >
         <a name="about-section"></a>
@@ -355,12 +333,7 @@
         </section>
       </div>
     <!-- Optional JavaScript -->
-    <!-- JS for nav scroll -->
-    <script>
-      $(window).scroll(function(){
-      $('navbar').toggleClass('scrolled', $(this).scrollTop()>500);
-      });
-
+    
   </script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
